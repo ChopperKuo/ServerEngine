@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{83492673-3c02-48e7-a580-877c02defed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ModuleManager">
+      <UniqueIdentifier>{b758d4a2-98c3-40ad-bc6d-6a48a2cb09c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ModuleManager\Public">
+      <UniqueIdentifier>{45536c3f-916e-4af4-b619-d7b8b0a2373e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ModuleManager\Private">
+      <UniqueIdentifier>{b58e9559-ceee-4345-8961-41f2aaf5cfef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\NetModule">
+      <UniqueIdentifier>{ea1f50cb-0b92-4cdc-8cc4-5b117785d68d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\NetModule\Public">
+      <UniqueIdentifier>{7c9f25c6-0dbb-4120-9e05-fadb66551234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\NetModule\Private">
+      <UniqueIdentifier>{128fbd82-3d40-4ab5-a6df-6cc3709e7fee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\ModuleManager.cpp">
+      <Filter>Source\ModuleManager\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core_PCH.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NetModule.cpp">
+      <Filter>Source\NetModule\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NetSocket.cpp">
+      <Filter>Source\NetModule\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NetPacket.cpp">
+      <Filter>Source\NetModule\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\ModuleFactory.h">
+      <Filter>Source\ModuleManager\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ModuleInterface.h">
+      <Filter>Source\ModuleManager\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ModuleManager.h">
+      <Filter>Source\ModuleManager\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core_PCH.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NetStream.h">
+      <Filter>Source\NetModule\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NetListener.h">
+      <Filter>Source\NetModule\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NetClient.h">
+      <Filter>Source\NetModule\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NetModule.h">
+      <Filter>Source\NetModule\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NetSocket.h">
+      <Filter>Source\NetModule\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NetPacket.h">
+      <Filter>Source\NetModule\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
